@@ -1,6 +1,7 @@
 # Introduction
 Petit projet de conception d'une API REST avec node.js (Express). L'utilisateur doit envoyer son email au format JSON à la route /api/token pour obtenir un cookie contenant un token.
 A partir de ce token, il sera possible d'effectuer des requetes vers /api/justify pour justifier un texte.
+La limite de mots est limité à 80 000 par jours et par token.
 
 ## Exemple
 ```
